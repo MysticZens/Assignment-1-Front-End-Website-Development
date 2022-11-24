@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap");
+
+body {
+  font-family: 'Montserrat';
+  margin: 0;
+  font-weight: 800;
+  font-size: 25px;
+  background-color: #444;
+
+}
+
+.section1 {
+  display: table;
+  position: relative;
+  color: white;
+  text-align: left;
+  padding-inline-start: 40px;
+  width: auto;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url("images/background.jpg");
+  padding-bottom: 5em;
+  
+}
+
+.container {
+  width: 85%;
+  height: 100%;
+  top: 0;
+  margin: auto;
+  position: relative;
+}
+
+header {
+  background: lightseagreen;
+  font-family: 'Newsreader';
+  margin: 0;
+}
+
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 20px 0;
+
+}
+
+.container .icon {
+  float: right;
+  padding: 40px 30px;
+  margin: 0;
+}
+
+.endcontent .fbicon {
+  position: absolute;
+  left: 34%;
+  top: 60%;
+}
+
+.endcontent .yticon {
+  position: absolute;
+  left: 47%;
+  top: 60%;
+}
+
+.endcontent .igicon {
+  position: absolute;
+  left: 61%;
+  top: 60%;
+}
+
+nav {
+  float: left;
+  padding: 0;
+}
+
+nav ul {
+  text-align: center;
+  margin: 0;  
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 100px;
+  padding-top: 45px;
+
+  position: relative;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: "";
+  display: block;
+  height: 5px;
+  background-color: grey;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+#greenbutton {
+  background: none;
+  border-color: lightseagreen;
+}
+
+#greenbutton:hover{
+  background-color: lightseagreen;
+}
+
+#greenbutton a:hover {
+  color:black;
+  text-decoration: none;
+}
+#greenbutton a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
+.section2 {
+  color: white;
+  text-align: left;
+  display: table;
+  padding-inline-start: 40px;
+  background: url("images/Product_background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  padding-bottom: 5em;
+}
+
+.section3 {
+  color: white;
+  text-align: left;
+  display: table;
+  padding-inline-start: 40px;
+  background: url("images/bckground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  width: auto;
+  height: auto;
+  padding-bottom: 5em;
+}
+
+footer {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.endcontent {
+  color: white;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  margin: auto;
+  position: relative;
+}
+
+.endcontent li {
+  top: 0;
+  display: flex;
+  position: relative;
+  justify-content: right;
+  padding: 10px 30px;
+  font-size: 20px;
+}
+
+.endcontent li a {
+  text-decoration: 0;
+  color: white;
+}
+
+.endcontent p {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.login h1 {
+  font-family: 'Playfair Display';
+  font-style: italic;
+}
+
+.login {
+  color: white;
+  text-align: center; 
+}
+
+img {
+  max-width: 100%;
+  border-style: none;
+  vertical-align: top;
+}
+
+.heading {
+  font-family: 'Playfair Display';
+  font-style: italic;
+}
+
+.endcontent .logo {
+  padding-left: 4em;
+  padding-top: 1em;
+}
+
+.search {
+  display: flex;
+  justify-content: left;
+  padding-bottom: 5.25em;
+  
+  padding-inline-start: 25%;
+  
+}
+
+#searchbar {
+  width: 200%;
+  margin-top: 2em;
+  background: lightseagreen;
+  border-color: lightseagreen;
+}
+
+.button {
+  background: transparent;
+  border: none;
+  padding-top: 2.2em;
+}
+
+#micbutton {
+  position: absolute;
+  right: 24%;
+}
+
+#searchbutton {
+  position: absolute;
+  right: 27%;
+}
+
+.contact h1{
+  font-family: 'Playfair Display';
+  font-style: italic;
+}
+
+.contact {
+  padding: 1em;
+  text-align: center;
+  color: white;
+}
+
+textarea {
+  max-width: 56.5%;
+}
+
+
