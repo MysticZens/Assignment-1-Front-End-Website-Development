@@ -316,6 +316,18 @@ textarea {
   font-size: 17px;
 }
 
+.start .privacypolicy {
+  padding-bottom: 1em;
+}
+
+.start .interpretations_definitions {
+  padding-bottom: 1em;
+}
+
+.start .personaldata {
+  padding-bottom: 1em;
+}
+
 .end {
   color: white;
   padding-inline-start: 35px;
@@ -337,18 +349,6 @@ textarea {
   text-decoration: none;
   color: white;
   font-weight: bold;
-}
-
-.privacypolicy {
-  padding-bottom: 1em;
-}
-
-.interpretations_definitions {
-  padding-bottom: 1em;
-}
-
-.personaldata {
-  padding-bottom: 1em;
 }
 
 .terms {
