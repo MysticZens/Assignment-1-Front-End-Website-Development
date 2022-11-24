@@ -310,10 +310,7 @@ textarea {
 }
 
 .start a {
-  text-decoration: none;
   color: white;
-  font-weight: bold;
-  font-size: 17px;
 }
 
 .start .privacypolicy {
@@ -346,9 +343,7 @@ textarea {
 }
 
 .end a {
-  text-decoration: none;
   color: white;
-  font-weight: bold;
 }
 
 .terms {
