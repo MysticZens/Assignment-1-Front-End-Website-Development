@@ -282,3 +282,103 @@ textarea {
 }
 
 
+
+.start h1{
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.start h2 {
+  font-size: 35px;
+}
+
+.start h3 {
+  font-size: 30px;
+  font-family: 'Newsreader';
+}
+
+.start {
+  color: white;
+  padding-inline-start: 35px;
+}
+
+.start p {
+  font-size: 15px;
+}
+
+.start ul li {
+  font-size: 15px;
+}
+
+.start a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.end {
+  color: white;
+  padding-inline-start: 35px;
+  padding-bottom: 1em;
+}
+
+.end h1 {
+  font-family: 'Playfair Display';
+  font-weight: bold;
+}
+.end p {
+  font-size: 15px;
+}
+.end ul {
+  font-size: 15px;
+}
+
+.end a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.privacypolicy {
+  padding-bottom: 1em;
+}
+
+.interpretations_definitions {
+  padding-bottom: 1em;
+}
+
+.personaldata {
+  padding-bottom: 1em;
+}
+
+.terms {
+  color: white;
+  padding-inline-start: 35px;
+  padding-bottom: 50px;
+}
+
+.terms p {
+  font-size: 15px;
+}
+
+.terms ul li {
+  font-size: 15px;
+}
+
+.terms h1 {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 60px;
+  font-family:'Playfair Display'
+}
+
+.terms h2 {
+  font-family: 'Newsreader';
+  font-size: 40px;
+}
+.terms a {
+  color: white;
+}
