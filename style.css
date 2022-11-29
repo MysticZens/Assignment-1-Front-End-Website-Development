@@ -473,10 +473,11 @@ textarea {
   padding-bottom: 3em;
 }
 
-@media screen and (max-width: 1025px)
+@media screen and (max-width: 1050px)
 {
   nav li {
     margin-right: 70px;
+    padding-inline-start: 30px;
   }
 
   footer {
@@ -484,11 +485,20 @@ textarea {
   }
 }
 
-@media screen and (max-width: 769px)
+@media screen and (max-width: 1002px)
 {
-  nav a {
-    font-size: 11px;
+  nav li {
+    margin-right: 50px;
+    padding-inline-start: 30px;
   }
+
+  footer {
+    padding-bottom: 1.5em;
+  }
+}
+
+@media screen and (max-width: 947px)
+{
   
   nav ul {
     text-align: center;
@@ -497,18 +507,8 @@ textarea {
 
   nav li {
     justify-content: center;
-    padding-inline-start: 90px;
-    margin: 0;
-  }
-
-  header {
-    padding-bottom: 1em;
-  }
-  
-  header .logo {
-    padding-top: 70px;
-    position: absolute;
-    right: 87%;
+    padding-inline-start: 40px;
+    margin-right: 20px;
   }
 
   .container .icon1 {
@@ -626,6 +626,7 @@ textarea {
 
 @media screen and (max-width: 376px)
 {
+  
   nav li {
     padding-inline-start: 15px;
     margin-right: 25px;
@@ -633,13 +634,14 @@ textarea {
 
   .container .icon1 {
     left: 13%;
+    padding-top: 115px;
   }
   .endcontent p {
     font-size: 11px;
   }
 }
 
-@media screen and (max-width: 321px)
+@media screen and (max-width: 325px)
 {
   nav li {
     padding-inline-start: 15px;
@@ -651,6 +653,10 @@ textarea {
     font-size: 10px;
   }
 
+  .container .icon1 {
+    left: 13%;
+    padding-top: 100px;
+  }
   .container .icon2 {
     right: 15%;
   }
