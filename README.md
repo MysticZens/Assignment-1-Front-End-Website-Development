@@ -35,7 +35,8 @@ Mobile version:
 - https://xd.adobe.com/view/d9192bb7-000b-43d2-bc90-521bdf38487d-8c4a/
 - https://xd.adobe.com/view/d59cf27a-ecad-4939-9709-74ee0e60aff3-80cf/
 - https://xd.adobe.com/view/46368725-78d2-452d-9dcf-772f01f2e709-1365/
-- https://xd.adobe.com/view/a3da60e5-59db-47a7-9e3e-cd614dc09a30-f689/https://xd.adobe.com/view/40acafcf-c6c7-4ead-87a7-ebfbeaf40177-15ff/
+- https://xd.adobe.com/view/a3da60e5-59db-47a7-9e3e-cd614dc09a30-f689/
+- https://xd.adobe.com/view/40acafcf-c6c7-4ead-87a7-ebfbeaf40177-15ff/
 - https://xd.adobe.com/view/03ddebb1-1b0b-4a93-96b2-7ba99e0d624f-568e/
 - https://xd.adobe.com/view/f03fedeb-22ee-4da7-a8c5-b513a28b60c9-a56c/
 - https://xd.adobe.com/view/6dae3949-bc35-4a34-b1ff-4c3f990814b9-38fd/
