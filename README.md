@@ -43,11 +43,11 @@ https://xd.adobe.com/view/6dae3949-bc35-4a34-b1ff-4c3f990814b9-38fd/
 
 ## Features
 Here are some of the features that I have used for my website:
-###### Existing Features
+### Existing Features
 - Feature 1 - Allows user to press buttons to redirect them to another page
 - Feature 2 - When a person clicks onto a emoji, it will show a background colour using Javascript
 - Feature 3 - After submitting the contact form and login form, there will be a thank you message stating different messages and details using Javascript
-###### Features to implement
+### Features to implement
 - Feature 1 - Click onto an item on the shop menu to save the item into the cart by pressing a button
 - Feature 2 - Display the cart details onto a new webpage, telling the customer about payment
 ## Technologies Used
