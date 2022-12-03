@@ -1,16 +1,16 @@
 # Assignment 1 - SWIFT Sports Drink Company
 This company was created in 2020 during the COVID-19 period, where the company owner, Packie Lee decided to encourage people to exercise and buy this sports drink that he invented to keep them energise, specially made for younger audiences like teenagers and young adults. Since people could not go out during the pandemic, the website was created to allow people to buy their favourite sports drink online on the website, allowing them to get the drink from their homes everywhere.
 
-# Design Process
+## Design Process
 For the design process, this website is made for younger audiences like teenagers and young adults to find out more about SWIFT and be a regular customer of SWIFT, attracting them to exercise and to buy the products. Since the website provides online services, it is convenient for younger audiences, who are tech-savvy, to buy the products online, as the products are accessible in majority of the countries, and delivery is efficient and quick. They also get to know more about the company and contact details of the company.
 
 As a user of SWIFT, I want to click onto the about page in the website, so that I can find out more about the company SWIFT and see whether they are reliable and their products are healthy or not.
 
 As a new user, I want to click onto the shop page from the website, so that I can try out and see the different product prices and product details before buying their products.   
 
-As a user of SWIFT, I want to click onto the contact page from the website, so that I can find the contact details of the company and contact one of the staff from the company through their contact details.
+As a user of SWIFT, I want to click onto the contact page from the website, so that I can enter my own contact details to find and contact one of the staff from the company or find their phone number to call them.
 
-Wireframe Links:
+### Wireframe Links:
 Desktop version
 https://xd.adobe.com/view/7f333629-5fbb-4f9b-bc1e-ed54a8d7c152-2a60/
 https://xd.adobe.com/view/b02a5b09-23e5-428c-923a-e4c8546457fd-e579/
@@ -41,10 +41,17 @@ https://xd.adobe.com/view/f03fedeb-22ee-4da7-a8c5-b513a28b60c9-a56c/
 https://xd.adobe.com/view/6dae3949-bc35-4a34-b1ff-4c3f990814b9-38fd/
 
 
-# Features
+## Features
+Here are some of the features that I have used for my website:
+###### Existing Features
+- Feature 1 - Allows user to press buttons to redirect them to another page
+- Feature 2 - When a person clicks onto a emoji, it will show a background colour using Javascript
+- Feature 3 - After submitting the contact form and login form, there will be a thank you message stating different messages and details using Javascript
+###### Features to implement
+- Feature 1 - Click onto an item on the shop menu to save the item into the cart by pressing a button
+- Feature 2 - Display the cart details onto a new webpage, telling the customer about payment
+## Technologies Used
+NIL
+## Testing
 
-# Technologies Used
-
-# Testing
-
-# Credits
+## Credits

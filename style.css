@@ -31,36 +31,53 @@ header::after {
   float: left;
   padding: 20px 20px;
   padding-inline-start: 100px;
+  height: 80px; 
+  width: 60px;
 }
 
 .container .icon1 {
   position: absolute;
   padding-top: 1.8em;
   right: 15%;
+  width: 30px;
+  height: 30px;
 }
 
 .container .icon2 {
   position: absolute;
   padding-top: 1.5em;
   right: 5%;
+  width: 40px;
+  height: 40px;
+}
+
+.endcontent .logo {
+  height: 120px; 
+  width: 100px;
 }
 
 .endcontent .fbicon {
   position: absolute;
   left: 34%;
   top: 60%;
+  height: 50px; 
+  width: 50px;
 }
 
 .endcontent .yticon {
   position: absolute;
   left: 47%;
   top: 60%;
+  height: 50px;
+  width: 50px;
 }
 
 .endcontent .igicon {
   position: absolute;
   left: 61%;
   top: 60%;
+  height: 50px; 
+  width: 50px;
 }
 
 nav {
@@ -216,6 +233,14 @@ footer {
   text-align: center;
 }
 
+.login .greenbutton {
+  width: 300px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
 .heading {
   font-family: "Playfair Display";
   font-style: italic;
@@ -223,14 +248,12 @@ footer {
 
 .search {
   display: flex;
-  justify-content: left;
-  padding-bottom: 5.25em;
-
-  padding-inline-start: 25%;
+  justify-content: center;
+  padding-bottom: 10em;
 }
 
 #searchbar {
-  width: 200%;
+  width: 20em;
   margin-top: 2em;
   background: lightseagreen;
 }
@@ -239,18 +262,6 @@ footer {
   background: transparent;
   border: none;
 
-}
-
-#micbutton {
-  position: absolute;
-  top: 29%;
-  right: 24%;
-}
-
-#searchbutton {
-  position: absolute;
-  top: 29%;
-  right: 27%;
 }
 
 .contact h1 {
@@ -387,6 +398,10 @@ hr {
   color: white;
 }
 
+.content img {
+  height: 15em; 
+  width: 20em;
+}
 .content h1 {
   font-family: "Playfair Display";
   font-style: italic;
@@ -397,13 +412,11 @@ hr {
 .content h3 {
   font-weight: bold;
   font-family: "Newsreader";
-  font-size: 40px;
-  padding-inline-end: 1em;
-  padding-inline-start: 1.5em;
+  font-size: 35px;
 }
 
 .content p {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 #intro {
@@ -415,19 +428,28 @@ hr {
   display: flex;
   justify-content: left;
   padding-bottom: 5em;
+  padding-inline-start: 2em;
+  padding-inline-end: 2em;
 }
 
 .content .manufacturer p {
   position: absolute;
   float: right;
-  padding-inline-start: 28em;
-  padding-top: 5em;
+  padding-inline-start: 29.5em;
+  padding-inline-end: 1.5em;
+  padding-top: 6em;
+}
+
+.content .manufacturer h3 {
+  padding-inline-start: 1em;
 }
 
 .content .drink_content {
   display: flex;
   justify-content: right;
   padding-bottom: 5em;
+  padding-inline-start: 2em;
+  padding-inline-end: 2em;
 }
 
 .content .drink_content p {
@@ -439,20 +461,26 @@ hr {
 }
 
 .content .drink_content h3 {
-  padding-inline-end: 8.5em;
+  padding-inline-end: 9.7em;
 }
 .content .offers {
   display: flex;
   justify-content: left;
   padding-bottom: 5em;
+  padding-inline-start: 2em;
+  padding-inline-end: 2em;
 }
 
 .content .offers p {
   position: absolute;
   float: right;
-  padding-inline-start: 28em;
+  padding-inline-start: 29.5em;
+  padding-inline-end: 1.5em;
   padding-top: 5em;
-  padding-inline-end: 2em;
+}
+
+.content .offers h3 {
+  padding-inline-start: 1em;
 }
 
 .menu li {
@@ -492,6 +520,32 @@ hr {
 
   footer {
     padding-bottom: 1.5em;
+  }
+
+  .content img {
+    height: 13em;
+    width: 17em;
+  }
+
+  .content h3 {
+    font-size: 25px;
+    padding-bottom: 0;
+  }
+  
+  .content p {
+    font-size: 17px;
+  }
+
+  .content .manufacturer p {
+    padding-inline-start: 26.5em;
+  }
+
+  .content .drink_content h3 {
+    padding-inline-end: 11.3em;
+  }
+
+  .content .offers p {
+    padding-inline-start: 26.5em;
   }
 }
 
@@ -614,6 +668,7 @@ hr {
     display: flex;
     justify-content: center;
     position: relative;
+    padding-inline-end: 2em;
   }
   .endcontent a {
     font-size: 20px;
@@ -645,6 +700,17 @@ hr {
     left: 73%;
     top: 60%;
   }
+
+  .content .drink_content img {
+    padding-inline-start: 5em;
+  }
+  .content .drink_content p {
+    padding-inline-end: 23em;
+  }
+
+  .content .drink_content h3 {
+    padding-inline-end: 2.8em;
+  }
 }
 
 @media screen and (max-width: 736px)
@@ -659,26 +725,51 @@ hr {
   nav li {
     padding-inline-start: 50px;
   }
+
+  .login {
+    font-size: 20px;
+  }
+
+  .login .greenbutton {
+    width: 200px;
+  }
 }
 
-@media screen and (max-width: 635px)
+@media screen and (max-width: 636px)
 {
   nav li {
     padding-inline-start: 40px;
   }
 }
 
-@media screen and (max-width: 595px)
+@media screen and (max-width: 613px)
 {
   nav li {
-    padding-inline-start: 30px;
+    padding-inline-start: 35px;
   }
 }
 
-@media screen and (max-width: 582px)
+@media screen and (max-width: 596px)
+{
+  .container .logo {
+    position: absolute;
+    right: 43%;
+  }
+  .container .icon1 {
+    position: absolute;
+    left: 23%;
+  }
+
+  .container .icon2 {
+    position: absolute;
+    right: 23%;
+  }
+}
+
+@media screen and (max-width: 588px)
 {
   nav li {
-    padding-inline-start: 25px;
+    padding-inline-start: 30px;
   }
 
   .endcontent p {
@@ -686,19 +777,27 @@ hr {
   }
 }
 
-@media screen and (max-width: 556px)
+@media screen and (max-width: 576px)
 {
   nav li {
-    padding-inline-start: 20px;
+    padding-inline-start: 25px;
   }
 
   body p {
     font-size: 15px;
   }
   
+  .greenbutton{
+    font-size: 13px;
+  } 
+
+  .login .greenbutton {
+    font-size: 20px;
+  }
+
 }
 
-@media screen and (max-width: 516px)
+@media screen and (max-width: 556px)
 {
   nav li {
     margin-right: 45px;
@@ -710,21 +809,44 @@ hr {
   }
 }
 
-@media screen and (max-width: 496px)
+@media screen and (max-width: 536px)
 {
   nav li {
     margin-right: 40px;
   }
+
+  .login {
+    font-size: 17px;
+  }
+
+  .login .greenbutton{
+    font-size: 17px;
+  }
+
 }
 
-@media screen and (max-width: 477px)
+@media screen and (max-width: 516px)
 {
   nav li {
     margin-right: 35px;
   }
+
+  .container .logo {
+    position: absolute;
+    right: 42%;
+  }
+  .container .icon1 {
+    position: absolute;
+    left: 16%;
+  }
+
+  .container .icon2 {
+    position: absolute;
+    right: 17%;
+  }
 }
 
-@media screen and (max-width: 456px)
+@media screen and (max-width: 496px)
 {
   nav li {
     margin-right: 30px;
@@ -733,14 +855,76 @@ hr {
   .endcontent p {
     font-size: 13px;
   }
+
+  .endcontent .fbicon {
+    position: absolute;
+    left: 23%;
+    top: 65%;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .endcontent .yticon {
+    position: absolute;
+    left: 48%;
+    top: 65%;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .endcontent .igicon {
+    position: absolute;
+    left: 73%;
+    top: 65%;
+    width: 40px;
+    height: 40px; 
+  }
 }
 
-@media screen and (max-width: 435px)
+@media screen and (max-width: 476px)
 {
   nav li {
     margin-right: 25px;
   }
+
+  .container .logo {
+    position: absolute;
+    right: 40%;
+  }
+  .container .icon1 {
+    position: absolute;
+    left: 18%;
+  }
+
+  .container .icon2 {
+    position: absolute;
+    right: 18%;
+  } 
 }
+
+@media screen and (max-width: 456px)
+{
+  nav li {
+    margin-right: 20px;
+  }
+
+  .login {
+    font-size: 15px;
+  }
+
+  .login .greenbutton {
+    font-size: 15px;
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 436px)
+{
+  nav li {
+    margin-right: 15px;
+  }
+}
+
 @media screen and (max-width: 426px)
 {
   header {
@@ -757,25 +941,31 @@ hr {
 
   nav li {
     padding-inline-start: 30px; 
-    margin-right: 20px;
+    margin-right: 10px;
   }
 
   .container .logo {
-    padding-top: 80px;
+    padding-top: 90px;
     position: absolute;
-    right: 38%;
+    right: 40%;
+    width: 40px;
+    height: 50px;
   }
 
   .container .icon1 {
-    padding-top: 103px;
+    padding-top: 110px;
     position: absolute;
-    left: 17%;
+    left: 25%;
+    width: 20px;
+    height: 20px;
   }
 
   .container .icon2 {
-    padding-top: 100px;
+    padding-top: 105px;
     position: absolute;
-    right: 13%;
+    right: 20%;
+    width: 30px;
+    height: 30px;
   }
 
   .section1 p {
@@ -791,7 +981,7 @@ hr {
   }
 
   footer {
-    padding-bottom: 1.5em;
+    padding-bottom: 1em;
   }
 
   .endcontent a { 
@@ -808,42 +998,56 @@ hr {
 
   .endcontent .fbicon {
     position: absolute;
-    left: 20%;
-    top: 60%;
+    left: 25%;
+    top: 70%;
+    width: 30px;
+    height: 30px;
   }
   
   .endcontent .yticon {
     position: absolute;
-    left: 47%;
-    top: 60%;
+    left: 49%;
+    top: 70%;
+    width: 30px;
+    height: 30px;
   }
   
   .endcontent .igicon {
     position: absolute;
     left: 73%;
-    top: 60%;
+    top: 70%;
+    width: 30px;
+    height: 30px; 
   }
 }
 
 @media screen and (max-width: 411px)
 {
   nav li { 
-    margin-right: 15px;
+    margin-right: 5px;
   }
 }
 
-@media screen and (max-width: 388px)
+@media screen and (max-width: 390px)
 {
   nav li { 
-    margin-right: 10px;
+    padding-inline-start: 25px;
+  }
+
+  .login {
+    font-size: 10px;
+  }
+
+  .login .greenbutton {
+    width: 100px;
+    font-size: 10px;
   }
 }
 @media screen and (max-width: 376px)
 {
   
   nav li {
-    padding-inline-start: 15px;
-    margin-right: 25px;
+    padding-inline-start: 20px;
   }
 
   .container .icon1 {
@@ -859,76 +1063,119 @@ hr {
 {
   
   nav li {
-    padding-inline-start: 20px;
-    margin-right: 10px;
+    padding-inline-start: 15px;
   }
 
   .container .logo {
     position: absolute;
-    right: 37%;
+    right: 40%;
+  }
+
+  .container .icon1 {
+    left: 16%;
+    padding-top: 110px;
+  }
+
+  .container .icon2 {
+    right: 14%;
+  }
+
+  .endcontent a {
+    font-size: 13px;
+  }
+  .endcontent p {
+    font-size: 10px;
   }
 }
 
-@media screen and (max-width: 331px)
+@media screen and (max-width: 350px)
 {
   
   nav li {
-    padding-inline-start: 15px;
-    margin-right: 10px;
+    padding-inline-start: 10px;
+  }
+
+  .heading {
+    font-size: 35px;
   }
 
 }
 
-@media screen and (max-width: 326px)
+@media screen and (max-width: 334px)
 {
   nav li {
-    padding-inline-start: 15px;
-    margin-right: 15px;
-  }
-
-  nav a {
-    font-size: 10px;
+    padding-inline-start: 5px;
   }
 
   .container .icon1 {
     left: 13%;
-    padding-top: 100px;
+    padding-top: 110px;
   }
   .container .icon2 {
     right: 15%;
   }
 
-  .endcontent p{
-    font-size: 9px;
-  }
-}
-
-@media screen and (max-width: 314px)
-{
-  .heading {
-    font-size: 30px;
-  }
-
-  .greenbutton{
+  .endcontent a{
     font-size: 13px;
-  }
-
-  nav li {
-    padding-inline-start: 15px;
-    margin-right: 10px;
-  }
-}
-
-@media screen and (max-width: 273px)
-{
-  nav li {
-    padding-inline-start: 15px;
-    margin-right: 10px;
   }
 
   .endcontent p {
     font-size: 8px;
   }
+}
 
 
+@media screen and (max-width: 310px)
+{
+  .endcontent p {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 306px)
+{
+  .heading {
+    font-size: 30px;
+  }
+  .section1 p {
+    font-size: 10px;
+  }
+
+  .section2 p {
+    font-size: 10px;
+  }
+
+  .section3 p {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 291px)
+{
+  nav li {
+    margin-right: 7px;
+  }
+}
+
+@media screen and (max-width: 279px)
+{
+  nav li {
+    padding-inline-start: 0px;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 264px)
+{
+  .endcontent a {
+    font-size: 11px;
+  }
+
+  .endcontent p {
+    font-size: 6px;
+  }
+
+  nav li {
+    margin-right: 0;
+  }
 }
