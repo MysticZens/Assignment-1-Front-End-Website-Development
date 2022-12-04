@@ -82,7 +82,7 @@ Here are some of the features that I have used for my website:
 ## Credits
 
 ### Content
-- The text for Privacy Policy used in this website were obtained from: https://app.freeprivacypolicy.com/wizard/privacy-policy#step-4
+- The text for Privacy Policy used in this website were obtained from: https://app.freeprivacypolicy.com/
 - The text for Terms of Use used in this website were obtained from: https://termly.io/products/terms-and-conditions-generator/
 
 
