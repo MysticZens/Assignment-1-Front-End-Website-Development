@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--Links and Title of the Homepage-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,6 +15,7 @@
 </head>
 <body>
     <header>
+        <!--Navigation Bar-->
         <div class="container">
           <a href="index.html"><img src="images/Logo.png" alt="logo" class="logo"></a>
           <nav>
@@ -28,7 +30,7 @@
           <a href="login.html"><img src="images/Login_Profile.png" alt="icon" class="icon2"></a>
         </div>
       </header>
-    <section>
+
     <div class="shop">
         <div class="menu">
             <ul>
@@ -42,15 +44,17 @@
 
         <div class="cart">
         <form action="#" method="get">
-            <label for="promotion_code" style="color: white; padding-inline-start: 30px">PROMO Code:</label>
-            <input type="text" id="promotion_code" placeholder="Q0000" name="Code" style="font-size: 20px">
+            <label for="promotion_code" id="promo_label">PROMO Code</label><br>
+            <input type="text" id="promotion_code" placeholder="Q0000" name="Code">
             <br>
             <br>
-            <button class="greenbutton" onclick="cartMessage()" style="height: 40%; position: relative;">ADD TO CART</button>
+            <br>
+            <button class="greenbutton" onclick="cartMessage()">ADD TO CART</button>
         </form>
         </div> 
     </div>
-    </section>
+    
+    <!--Footer of the website with Credits-->
     <footer>
         <div class="endcontent">
           <img src="images/Logo.png" alt="logo" class="logo">

@@ -14,6 +14,7 @@
 </head>
 <body>
   <header>
+    <!--Navigation Bar-->
     <div class="container">
       <a href="index.html"><img src="images/Logo.png" alt="logo" class="logo"></a>
       <nav>
@@ -31,15 +32,16 @@
 
     <div class="contact">
         <h1>CONTACT US</h1>
-        <form action="#" method="get">
-            <input type="text" placeholder="Name">
-            <input type="text" placeholder="Phone"><br>
-            <br><textarea placeholder="Your message" rows="4" cols="50"></textarea>
-            <br><button class="greenbutton" onclick="contactMessage()" style="width:665px">SUBMIT</button>
+        <form action="index.html" method="get">
+            <input type="text" id="name" placeholder="Name">
+            <input type="text" id="phone" placeholder="Phone"><br>
+            <br><textarea placeholder="Your message" id="message"></textarea>
+            <br><button class="greenbutton" onclick="contactMessage()">SUBMIT</button>
         </form>
         <h6>Want to contact us instead? 89264573</h6>
     </div>
 
+    <!--Footer of the website with Credits-->
     <footer>
       <div class="endcontent">
         <img src="images/Logo.png" alt="logo" class="logo">

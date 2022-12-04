@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!--Links and Title of the Homepage-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width">
@@ -15,6 +16,7 @@
 
   <body>
     <header>
+      <!--Navigation Bar-->
       <div class="container">
         <a href="index.html"><img src="images/Logo.png" alt="logo" class="logo"></a>
         <nav>
@@ -29,19 +31,23 @@
         <a href="login.html"><img src="images/Login_Profile.png" alt="icon" class="icon2"></a>
       </div>
     </header>
-    <section>
+
     <div class="feedback">
       <h1>FEEDBACK</h1>
       <h5>Do you like our website? Please rate it from 1-5.</h5>
-      <p style="font-size: 60px"><a href="#" id="emoji1">&#128545;</a> <a href="#" id="emoji2">&#128577;</a> <a href="#" id="emoji3">&#128528;</a> <a href="#" id="emoji4">&#128578;</a> <a href="#" id="emoji5">&#128522;</a></p>
+      <p id="emojis"><a href="#" id="emoji1">&#128545;</a> <a href="#" id="emoji2">&#128577;</a> <a href="#" id="emoji3">&#128528;</a> <a href="#" id="emoji4">&#128578;</a> <a href="#" id="emoji5">&#128522;</a></p>
       <hr>
       <br>
-      <label style="font-size: 20px">Give comments about your rating
-        <br><textarea style="width: 20em; height: 10em; font-size: 20px"></textarea>
+      <label id="label">Give comments about your rating
+        <br><textarea id="comments"></textarea>
       </label><br>
-      <br><button class="greenbutton" onclick="feedbackMessage()" style="width: 14em;">SUBMIT</button>
+      <form action="index.html" method="get"> 
+      <br><button class="greenbutton" onclick="feedbackMessage()">SUBMIT</button>
+      </form>
     </div>
-    </section>
+
+
+    <!--Footer of the website with Credits-->
     <footer>
       <div class="endcontent">
         <img src="images/Logo.png" alt="logo" class="logo">
