@@ -7,9 +7,9 @@ function feedbackMessage() {
 // After pressing the login button, there will be alert message on the Login Page, stating your name, email and password
 // Redirecting you back to the homepage
 function loginMessage() {
-  let username = document.getElementById("username").value;
-  let emailAddr = document.getElementById("email").value;
-  let password = document.getElementById("password").value;
+  let username = document.getElementById("Username").value;
+  let emailAddr = document.getElementById("Email").value;
+  let password = document.getElementById("Password").value;
   alert("Thank you for filling in your details.\nName: " + username + "\nEmail: " + emailAddr + "\nPassword: " + password);
 }
 
