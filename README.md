@@ -57,28 +57,28 @@ Here are some of the features that I have used for my website:
   * The project uses Javascript for extra features and to save data inside the website 
 ## Testing
 1. Login form
-   i. Click the profile icon
-   ii. Try to submit a form with valid username, email address and password, verify with an alert message, and your input details.
-   iii. Try to submit a form with no details, inputting no details.
-   iv. Try to submit a form with invalid email address.
+   - Click the profile icon
+   - Try to submit a form with valid username, email address and password, verify with an alert message, and your input details.
+   - Try to submit a form with no details, inputting no details.
+   - Try to submit a form with invalid email address.
 
 2. Feedback form
-   i. Click the Support at the bottom of the page.
-   ii. Try to click the emoji, showing a green background color after clicking.
-   iii. Try to submit the form, with a verification message.
+   - Click the Support at the bottom of the page.
+   - Try to click the emoji, showing a green background color after clicking.
+   - Try to submit the form, with a verification message.
 
 3. Contact form
-   i. Click the Contact page.
-   ii. Try to fill in your contact details, with a verification message.
-   iii. Try to fill in an invalid phone number.
+   - Click the Contact page.
+   - Try to fill in your contact details, with a verification message.
+   - Try to fill in an invalid phone number.
 
 4. Media Queries
-   i. Try to look at the website on your phone.
-   ii. See if the functions still work well, comparable to a desktop view.
-   iii. Try to navigate around the website.
+   - Try to look at the website on your phone.
+   - See if the functions still work well, comparable to a desktop view.
+   - Try to navigate around the website.
 
 5. Bugs
-   There was a small bug where when I pressed contact on my mobile, it would redirect me to the login page.
+   - There was a small bug where when I pressed contact on my mobile, it would redirect me to the login page.
 ## Credits
 
 ### Content
