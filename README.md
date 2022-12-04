@@ -19,12 +19,9 @@ Desktop version:
 - https://xd.adobe.com/view/cb8ebab0-d7df-4c1e-9ddc-2e4df597c6b2-9edd/
 - https://xd.adobe.com/view/5bf82743-dc0b-4d78-9f17-c45b3fe78425-0eab/
 - https://xd.adobe.com/view/70729f0f-1fd6-4e86-968e-0d87ee916d70-2521/
-- https://xd.adobe.com/view/b6c6350c-81ec-410f-8e89-edae41a6889b-e395/
-- https://xd.adobe.com/view/4da3bd78-e862-4856-a349-ab968f2d3e0c-18f0/
 - https://xd.adobe.com/view/cee91b1b-85c9-4550-b234-b1cd55f8b94c-9bba/
-- https://xd.adobe.com/view/df95d2f8-214c-4cc5-adf2-2e544403d4f3-8ac6/
 - https://xd.adobe.com/view/ef06f360-51d6-4029-ad28-3c082649ac0c-ba55/
-- https://xd.adobe.com/view/4b033cab-f227-426f-819f-75fbdd606093-1e50/
+
 
 Mobile version:
 - https://xd.adobe.com/view/3cb27efc-0c02-44d9-8700-56a61c23476e-69e1/
@@ -33,13 +30,10 @@ Mobile version:
 - https://xd.adobe.com/view/5f808f7e-ce50-4be2-b997-86d298796355-0ad3/
 - https://xd.adobe.com/view/8325edfd-28a6-4801-b75b-7d634e84a689-d676/
 - https://xd.adobe.com/view/d9192bb7-000b-43d2-bc90-521bdf38487d-8c4a/
-- https://xd.adobe.com/view/d59cf27a-ecad-4939-9709-74ee0e60aff3-80cf/
-- https://xd.adobe.com/view/46368725-78d2-452d-9dcf-772f01f2e709-1365/
 - https://xd.adobe.com/view/a3da60e5-59db-47a7-9e3e-cd614dc09a30-f689/
 - https://xd.adobe.com/view/40acafcf-c6c7-4ead-87a7-ebfbeaf40177-15ff/
-- https://xd.adobe.com/view/03ddebb1-1b0b-4a93-96b2-7ba99e0d624f-568e/
 - https://xd.adobe.com/view/f03fedeb-22ee-4da7-a8c5-b513a28b60c9-a56c/
-- https://xd.adobe.com/view/6dae3949-bc35-4a34-b1ff-4c3f990814b9-38fd/
+
 
 
 ## Features
@@ -51,8 +45,51 @@ Here are some of the features that I have used for my website:
 ### Features to implement
 - Feature 1 - Click onto an item on the shop menu to save the item into the cart by pressing a button
 - Feature 2 - Display the cart details onto a new webpage, telling the customer about payment
+- Feature 3 - Asking the customers to key in their email because they forget their password
 ## Technologies Used
-NIL
+- HTML
+  * The project uses HTML to develop a basic website
+  
+- CSS
+  * The project uses CSS to style the website, making the website design look beautiful
+  
+- Javascript
+  * The project uses Javascript for extra features and to save data inside the website 
 ## Testing
+1. Login form
+   i. Click the profile icon
+   ii. Try to submit a form with valid username, email address and password, verify with an alert message, and your input details.
+   iii. Try to submit a form with no details, inputting no details.
+   iv. Try to submit a form with invalid email address.
 
+2. Feedback form
+   i. Click the Support at the bottom of the page.
+   ii. Try to click the emoji, showing a green background color after clicking.
+   iii. Try to submit the form, with a verification message.
+
+3. Contact form
+   i. Click the Contact page.
+   ii. Try to fill in your contact details, with a verification message.
+   iii. Try to fill in an invalid phone number.
+
+4. Media Queries
+   i. Try to look at the website on your phone.
+   ii. See if the functions still work well, comparable to a desktop view.
+   iii. Try to navigate around the website.
+
+5. Bugs
+   There was a small bug where when I pressed contact on my mobile, it would redirect me to the login page.
 ## Credits
+
+### Content
+- The text for Privacy Policy used in this website were obtained from: https://app.freeprivacypolicy.com/wizard/privacy-policy#step-4
+- The text for Terms of Use used in this website were obtained from: https://termly.io/products/terms-and-conditions-generator/
+
+
+### Media
+The photos used in the website were obtained from:
+- https://www.istockphoto.com/
+- https://www.shutterstock.com/
+- Adobe Illustrator
+- https://www.flaticon.com/
+- https://www.brandcrowd.com/
